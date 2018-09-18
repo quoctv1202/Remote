@@ -1,2 +1,4 @@
 joker
 dark knight
+check status 
+update
