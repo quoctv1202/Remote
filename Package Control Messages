@@ -1,0 +1,399 @@
+Package Control Messages
+========================
+
+Ruby Completions
+----------------
+
+  Ruby Completions
+  ================
+  
+  Thank you for installing Ruby completions. This is aa simple Ruby package for sublime text that provides completion suggestions mostly for methods and when importing(requiring) packages/modules.
+  
+  
+  Usage
+  =====
+  
+  Typing normally shows method suggestions. Pressing tab will complete it.
+  To use completion features when requiring a gem/package, type `R-` followed by the name and press `ENTER` or `TAB`.
+  
+  	For example, to require 'cmath', type R-cmath and press enter or tab and the require would be completed.
+  
+  For more information, visit <https://github.com/tushortz/Ruby-Completions> or contack me on taiwo.kareem36@gmail.com
+  
+  Contributing
+  ============
+  
+  All contributions are welcome, create a pull request after forking the project from https://github.com/tushortz/Ruby-Completions and I'll get in touch.
+
+
+Rails Completions
+-----------------
+
+  Rails Completions
+  ================
+  
+  Thank you for installing Rails completions.
+  This is aa simple package for sublime text that provides completion suggestions for Ruby on Rails
+  
+  Usage
+  =====
+  
+  Typing normally shows method suggestions. Pressing tab will complete it.
+  
+  
+  Available Completions
+  =====================
+  
+  ## Model Callbacks
+  
+  ### before
+  
+    *  before_create
+    *  before_destroy
+    *  before_save
+    *  before_update
+    *  before_validation
+    *  before_validation_on_create
+    *  before_validation_on_update
+  
+  ### around
+  
+    *  around_create
+    *  around_save
+    *  around_update
+    *  around_destroy
+  
+  ### after
+  
+    *  after_commit
+    *  after_create
+    *  after_create_commit
+    *  after_destroy
+    *  after_destroy_commit
+    *  after_rollback
+    *  after_save
+    *  after_update
+    *  after_update_commit
+    *  after_validation
+    *  after_validation_on_create
+    *  after_validation_on_Update
+  
+  ## model assocaitions
+  
+    *  belongs_to
+    *  has_one
+    *  has_many
+    *  has_many_through # has_many :through
+    *  has_one_through # has_one :through
+    *  has_and_belongs_to_many
+  
+  ## model validations
+  
+    *  validate
+    *  validates
+    *  validates_acceptance_of
+    *  validates_associated
+    *  validates_confirmation_of
+    *  validates_each
+    *  validates_exclusion_of
+    *  validates_format_of
+    *  validates_inclusion_of
+    *  validates_length_of
+    *  validates_numericality_of
+    *  validates_presence_of
+    *  validates_size_of
+    *  validates_uniqueness_of
+  
+  ## controllers callbacks
+  
+    *  before_action
+    *  skip_before_action
+    *  around_action
+    *  http_basic_authenticate_with
+    *  redirect_to
+  
+  ## render (.rb)
+  
+    *  render
+    *  render_template
+    *  render_partial
+    *  render_action
+    *  render_action_edit
+    *  render_action_show
+    *  render_action_index
+    *  render_action_update
+    *  render_file
+    *  render_inline
+    *  render_html
+    *  render_json
+    *  render_js
+    *  render_xml
+    *  render_body
+    *  render_layout
+    *  render_status
+    *  render_layout
+  
+  ## render (.erb)
+  
+    *  render
+    *  render_template
+    *  render_partial
+    *  render_file
+    *  render_inline
+  
+  ## migration
+  
+    *  add_column
+    *  add_foreign_key
+    *  add_index
+    *  add_reference
+    *  add_timestamps
+    *  change_column_default
+    *  change_column_null
+    *  create_join_table
+    *  create_table
+    *  disable_extension
+    *  drop_join_table
+    *  drop_table
+    *  enable_extension
+    *  remove_column
+    *  remove_foreign_key
+    *  remove_index
+    *  remove_reference
+    *  remove_timestamps
+    *  rename_column
+    *  rename_index
+    *  rename_table
+  
+  ## file tags (ERB only)
+  
+    *  javascript_include_tag
+    *  stylesheet_link_tag
+    *  image_tag
+    *  javascript_pack_tag
+    *  stylesheet_pack_tag
+  
+  Contributing
+  ============
+  
+  All contributions are welcome, create a pull request after forking the project
+  
+  https://github.com/mjeffrey18/rails-completions
+
+
+Ruby on Rails snippets
+----------------------
+
+  Thanks for installing Ruby on Rails Snippets
+  
+  Package Controll installs the new snippets alongside the default, outdated ones provided by Sublime Text. If you'd like to completely replace the old snippets, follow installation via git instructions in the readme:
+  
+  https://github.com/tadast/sublime-rails-snippets/blob/master/README.md
+  
+  =========================
+   FUTURE OF THIS PACKAGE
+  =========================
+  
+  I'll be porting the changes in this package to the official Sublime Text Rails snippets.
+  
+  If you want to make Sublime awesome for Rails again, join the effort:
+  https://github.com/tadast/sublime-rails-snippets/issues/34
+
+
+BracketHighlighter
+------------------
+
+  # BracketHighlighter
+  
+  Welcome to BracketHighlighter!  For a quick start guide, please go to  
+  `Preferences->Package Settings->BracketHighlighter->Quick Start Guide`.
+
+
+Material Theme
+--------------
+
+  ## Material Theme for Sublime Text 3
+  
+  For more information on the Material Theme: https://github.com/equinusocio/material-theme
+  
+  **********************************************************************************************
+  
+  # Activate the theme
+  
+  You can activate this theme from:
+  - Command palette `Tools > Command Palette` (⌘/Ctrl + ⇧ + P) by typing `Material Theme: Activate theme`.
+  - Context menu (Right click on the editor) and choose `Material Theme > Activate`
+  - `Preferences > Packages Settings` and choose `Material Theme > Activate`
+  
+  You can also manually activate this theme by adding these lines to your user settings (**Preferences > Settings - User**):
+  
+  ```json
+  "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+  "theme": "Material-Theme.sublime-theme",
+  ```
+  
+  **NOTE:** Restart Sublime Text after activating the theme.
+  
+  ## File icons
+  From release 4.0.0 this theme use [A File Icon](https://github.com/ihodev/a-file-icon) package to display file icons. Please install the package and restart Sublime Text.
+  
+  **********************************************************************************************
+  
+  # Theme options
+  
+  ```json
+  // Accent
+  "material_theme_accent_acid-lime"         : true, // Set acid-lime accent color
+  "material_theme_accent_blue"              : true, // Set blue accent color
+  "material_theme_accent_brba"              : true, // Set Breaking Bad green accent color
+  "material_theme_accent_bright-teal"       : true, // Set bright-teal accent color
+  "material_theme_accent_cyan"              : true, // Set cyan accent color
+  "material_theme_accent_graphite"          : true, // Set graphite accent color
+  "material_theme_accent_indigo"            : true, // Set indigo accent color
+  "material_theme_accent_lime"              : true, // Set lime green accent color
+  "material_theme_accent_orange"            : true, // Set orange accent color
+  "material_theme_accent_pink"              : true, // Set pink accent color
+  "material_theme_accent_purple"            : true, // Set purple accent color
+  "material_theme_accent_red"               : true, // Set pale red accent color
+  "material_theme_accent_sky"               : true, // Set bright-cyan accent color
+  "material_theme_accent_tomato"            : true, // Set tomato red accent color
+  "material_theme_accent_yellow"            : true, // Set yellow accent color
+  
+  // Panels
+  "material_theme_accent_scrollbars"        : true, // Enable accent color for scrollbars
+  "material_theme_accent_titlebar"          : true, // Enable accent color for titlebar
+  "material_theme_bright_scrollbars"        : true, // Bright scrollbars puck color
+  "material_theme_compact_panel"            : true, // Set minimal padding for the search panel
+  "material_theme_contrast_mode"            : true, // Enable sidebar and panels contrast mode
+  "material_theme_panel_separator"          : true, // Show bottom panel separator
+  "material_theme_small_statusbar"          : true, // Set small status bar
+  "material_theme_titlebar"                 : true, // Enable title bar (OS X 10.10+)
+  
+  // Sidebar
+  "material_theme_arrow_folders"            : true, // Replace folder icons with arrows
+  "material_theme_big_fileicons"            : true, // Show bigger file type icons
+  "material_theme_bullet_tree_indicator"    : true, // Set a bullet as active tree indicator
+  "material_theme_compact_sidebar"          : true, // Set compact side bar
+  "material_theme_disable_fileicons"        : true, // Hide sidebar file type icons
+  "material_theme_disable_folder_animation" : true, // Disable folder animation
+  "material_theme_disable_tree_indicator"   : true, // Disable sidebar file indicator
+  
+  // Tabs
+  "material_theme_bold_tab"                 : true, // Make the tab labels bolder
+  "material_theme_small_tab"                : true, // Set small tabs
+  "material_theme_tabs_autowidth"           : true, // Enable autowidth for tabs
+  "material_theme_tabs_separator"           : true, // Show tabs separator, this disables tab hover animation
+  
+  // If you use Material Theme - Appbar addon you can use additional settings:
+  "material_theme_tree_headings"            : true, // Show sidebar headings
+  ```
+  
+  **********************************************************************************************
+  
+  # Recommended settings for a better experience:
+  
+  ```json
+  "always_show_minimap_viewport" : true,
+  "bold_folder_labels"           : true,
+  "font_options"                 : ["gray_antialias", "subpixel_antialias"], // On retina Mac & Windows
+  "indent_guide_options"         : ["draw_normal", "draw_active"], // Highlight active indent
+  "line_padding_bottom"          : 3,
+  "line_padding_top"             : 3,
+  "overlay_scroll_bars"          : "enabled",
+  ```
+
+
+A File Icon
+-----------
+
+  ```
+  
+      $$$$$$\        $$$$$$$$\ $$\ $$\                 $$$$$$\                              
+     $$  __$$\       $$  _____|\__|$$ |                \_$$  _|                             
+     $$ /  $$ |      $$ |      $$\ $$ | $$$$$$\          $$ |  $$$$$$$\  $$$$$$\  $$$$$$$\  
+     $$$$$$$$ |      $$$$$\    $$ |$$ |$$  __$$\         $$ | $$  _____|$$  __$$\ $$  __$$\ 
+     $$  __$$ |      $$  __|   $$ |$$ |$$$$$$$$ |        $$ | $$ /      $$ /  $$ |$$ |  $$ |
+     $$ |  $$ |      $$ |      $$ |$$ |$$   ____|        $$ | $$ |      $$ |  $$ |$$ |  $$ |
+     $$ |  $$ |      $$ |      $$ |$$ |\$$$$$$$\       $$$$$$\\$$$$$$$\ \$$$$$$  |$$ |  $$ |
+     \__|  \__|      \__|      \__|\__| \_______|      \______|\_______| \______/ \__|  \__|
+  
+  ```
+  
+  This package adds file specific icons to Sublime Text for improved visual grepping. 
+  It's heavily inspired by Atom File Icons.
+  
+  ***
+  
+  1. Please restart Sublime Text for the applied icons to take effect.
+  2. The icons for packages provided by the community must be installed,
+     i.e., if you want to see SCSS icons you should install one of the SCSS syntax packages.
+  
+  ***
+  
+  I've put a lot of time and effort into making `A File Icon` awesome. If you love 
+  it, you can [buy me a coffee](https://www.patreon.com/ihodev) ☕.
+
+
+Emmet
+-----
+
+  Thank you for installing Emmet -- a toolkit that can greatly improve your workflow. Note that this plugin automatically downloads and installs PyV8 binary (see status bar message). 
+  
+  ******************************
+  Please restart editor 
+  to finish installation process 
+  after PyV8 was downloaded.
+  ******************************
+  
+  Tab key handler
+  ==========================
+  
+  By default, Emmet allows you to expand abbreviations with Tab key in HTML, XML, HAML and CSS/SASS/LESS/Stylus documents. As a side effect, you can’t use some of your ST2 snippets.
+  
+  Please read https://github.com/sergeche/emmet-sublime#tab-key-handler about how Tab handler works and how to tweak its behavior to match your needs.
+  
+  Enter key
+  ==========================
+  
+  In HTML and XML documents, Emmet overrides Enter key to insert formatted line breaks between opening and closing tags. In some cases it will break character input (for example, in Japanese language).
+  
+  To disable Enter key handler, simply add the following option in your user's Preferences file:
+  
+  "disable_formatted_linebreak": true
+  
+  Actions shortcuts
+  ==========================
+  
+  Emmet has a number of actions with keyboard shortcuts that may override ones you're using commonly (for example, Ctrl-E or Ctrl-Down). Please read the project main page to get list of available actions and keyboard shortcuts and how to disable them:
+  https://github.com/sergeche/emmet-sublime
+  
+  Documentation and examples:
+  http://emmet.io
+  
+  ------------------------------
+  Follow me on Twitter: @emmetio
+  ------------------------------
+
+
+Color Highlighter
+-----------------
+
+  
+  Color Highlighter v8.0 is released!
+  
+  For more info about the plugin visit https://github.com/Monnoroch/ColorHighlighter.
+  
+  Color Highlighter was developed for many years and features were added without consideration.
+  As a result it has plenty of bugs and code is completely unmaintainable.
+  Because of it, I've decided to rewrite the plugin from scratch using all the good programming practices I learned
+  over the years.
+  
+  This is the first release of the new version and it might have some subtle bugs, especially on Windows and Mac, as I
+  don't have machines with these systems. If you find any bugs, please file them in
+  the bug tracker here: https://github.com/Monnoroch/ColorHighlighter/issues. I always appreciate your help and try to fix
+  problems as soon as possible.
+  
+  The plugin is being developed by me alone in my spare time, so if you want to encourage me to build it
+  better and faster, donations as always welcome.
+  
+  Thank you guys for your support, every little bit helps!
