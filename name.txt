@@ -1,4 +1,7 @@
+insert
 joker
 dark knight
 check status 
 update
+dark knighit
+conflict
